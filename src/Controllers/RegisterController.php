@@ -10,7 +10,7 @@ class RegisterController {
             'methods'  => 'GET',
             'callback' => [$this, 'handleRegister'],
             'args'	   => [
-            	'user_name' => [
+            	'user_nane' => [
             		'required' => true
             	],
             	'password' => [
